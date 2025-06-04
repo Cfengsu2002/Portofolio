@@ -1,43 +1,75 @@
-<!DOCTYPE html><html lang=en class=sr><meta charset=utf-8><meta http-equiv=X-UA-Compatible content="IE=edge"><meta name=viewport content="width=device-width, initial-scale=1"><link rel="icon shortcut" type=image/png href=/favicon.a58db67b.png><title>[Your name here] | Developer</title><meta name=keywords content="[username], [name], skill"><meta name=description content="[Your name here] | Developer"><link rel=stylesheet href=https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css><link rel=stylesheet href=/simplefolio.ba59e9dd.css><script defer src=https://unpkg.com/scrollreveal@4.0.0/dist/scrollreveal.min.js></script><script async defer src=https://buttons.github.io/buttons.js></script><body>
-    <div id=top></div>
+<!--
+  Hello!
+  -
+  Simplefolio is a clean and responsive portfolio template for Developers!
+  Created by Jacobo Martinez.
+  -
+  Github Repo: https://github.com/cobiwave/simplefolio/
+  Readme: https://github.com/cobiwave/simplefolio/README.md
+  -
+  For business & inquires, contact me -> jacobojavier98@gmail.com
+--><!DOCTYPE html><html lang="en" class="sr"><head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" type="image/png" href="/favicon.2a2e97fc.png">
 
-    
-    <section id=hero class=jumbotron>
-      <div class=container>
+    <!-- Todo: put here your site title -->
+    <title>[Your name here] | Developer</title>
+    <!-- Todo: add some coding keywords below - e.g: (javascript, yourusername, etc) -->
+    <meta name="keywords" content="[username], [name], skill">
+    <!-- Todo: improve your SEO by adding a small description of you -->
+    <meta name="description" content="[Your name here] | Developer">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="/simplefolio.4a508c1d.css">
+    <script defer="" src="https://unpkg.com/scrollreveal@4.0.0/dist/scrollreveal.min.js"></script>
+
+    <!-- Todo: remove the below script once you finish your portfolio -->
+    <script async="" defer="" src="https://buttons.github.io/buttons.js"></script>
+  </head>
+
+  <!-- Todo: read the following HTML Todos to create your stunning portfolio website -->
+  <body>
+    <div id="top"></div>
+
+    <!-- **** Hero Section **** -->
+    <section id="hero" class="jumbotron">
+      <div class="container">
         <h1 class="hero-title load-hidden">
           <p>cout &lt;&lt; "Hello to Chenfeng's World" &lt;&lt; endl;</p>
 
-          Hi, my name is <span class=text-color-main> Chenfeng Su</span>
+          Hi, my name is <span class="text-color-main"> Chenfeng Su</span>
           <br>
           I'm a full-stack Developer.
         </h1>
         <p class="hero-cta load-hidden">
-          <a rel=noreferrer class="cta-btn cta-btn--hero" href=#about>Know more</a>
+          <a rel="noreferrer" class="cta-btn cta-btn--hero" href="#about">Know more</a>
         </p>
       </div>
     </section>
-    
+    <!-- /END Hero Section -->
 
-    
-    <section id=about>
-      <div class=container>
-        <h2 class="load-hidden section-title">About me</h2>
-        <div class="about-wrapper row">
+    <!-- **** About Section **** -->
+    <section id="about">
+      <div class="container">
+        <h2 class="section-title load-hidden">About me</h2>
+        <div class="row about-wrapper">
           <div class="col-md-6 col-sm-12">
             <div class="about-wrapper__image load-hidden">
-              <img alt="Profile Image" class="img-fluid rounded shadow-lg" height=auto width=300px src=/profile.24976e52.jpg>
+              <img alt="Profile Image" class="img-fluid rounded shadow-lg" height="auto" width="300px" src="/profile.6ee28169.jpg">
             </div>
           </div>
           <div class="col-md-6 col-sm-12">
             <div class="about-wrapper__info load-hidden">
-              <p class=about-wrapper__info-text>
+              <p class="about-wrapper__info-text">
                 I am a Computer Science and Economics student at the University of Florida, passionate about solving problems through technology. My experiences in software engineering and research drive my goal to create impactful solutions.
               </p>
-              <p class=about-wrapper__info-text>
+              <p class="about-wrapper__info-text">
                 In my free time, I enjoy playing basketball, which helps me stay active and work well in team settings. I am always excited about learning new technologies and improving my skills, aiming for continuous growth in my career.
               </p>
               <span class="d-flex mt-3">
-                <a rel=noreferrer target=_blank class="cta-btn cta-btn--resume" href=/assets/CS%20resume.pdf>
+                <a rel="noreferrer" target="_blank" class="cta-btn cta-btn--resume" href="/assets/CS%20resume.pdf">
                   View Resume
                 </a>
               </span>
@@ -46,144 +78,144 @@
         </div>
       </div>
     </section>
-    
+    <!-- /END About Section -->
 
-    
-    <section id=projects>
-      <div class=container>
-        <div class=project-wrapper>
-          <h2 class="dark-blue-text section-title">Projects</h2>
+    <!-- **** Projects Section **** -->
+    <section id="projects">
+      <div class="container">
+        <div class="project-wrapper">
+          <h2 class="section-title dark-blue-text">Projects</h2>
 
-          
-          <div class=row>
+          <!-- Notice: each .row is a project -->
+          <div class="row">
             <div class="col-lg-4 col-sm-12">
-              <div class="load-hidden project-wrapper__text">
-                <h3 class=project-wrapper__text-title>Scan-Craft</h3>
+              <div class="project-wrapper__text load-hidden">
+                <h3 class="project-wrapper__text-title">Scan-Craft</h3>
                 <div>
-                  <p class=mb-4>
+                  <p class="mb-4">
 Built an immersive survival app that lets users upload images of real-world items to receive AI-generated crafting instructions. Designed for crisis zones, the app uses Flask, Gemini API, and MongoDB to help users turn limited supplies into tools for survival. Key features include QR-based resource sharing, weather-aware geolocation, and encrypted field communication.                  </p>
                 </div>
-                <a rel=noreferrer target=_blank class="cta-btn cta-btn--hero" href="https://www.youtube.com/watch?v=B0qr6Yvo2zI&amp;ab_channel=MichaelBennie">
+                <a rel="noreferrer" target="_blank" class="cta-btn cta-btn--hero" href="https://www.youtube.com/watch?v=B0qr6Yvo2zI&amp;ab_channel=MichaelBennie">
                   See Live
                 </a>
-                <a rel=noreferrer target=_blank class="cta-btn text-color-main" href=https://github.com/michaelbennieUFL/2025hackabull>
+                <a rel="noreferrer" target="_blank" class="cta-btn text-color-main" href="https://github.com/michaelbennieUFL/2025hackabull">
                   Source Code
                 </a>
               </div>
             </div>
             <div class="col-lg-8 col-sm-12">
-              <div class="load-hidden project-wrapper__image">
-                <a rel=noreferrer href="https://www.youtube.com/watch?v=B0qr6Yvo2zI&amp;ab_channel=MichaelBennie" target=_blank>
-                  <div data-tilt data-tilt-max=4 data-tilt-glare=true data-tilt-max-glare=0.5 class="js-tilt rounded thumbnail">
-                    <img alt="Project Image" class=img-fluid src=/project0.895ba5ca.png>
+              <div class="project-wrapper__image load-hidden">
+                <a rel="noreferrer" href="https://www.youtube.com/watch?v=B0qr6Yvo2zI&amp;ab_channel=MichaelBennie" target="_blank">
+                  <div data-tilt="" data-tilt-max="4" data-tilt-glare="true" data-tilt-max-glare="0.5" class="thumbnail rounded js-tilt">
+                    <img alt="Project Image" class="img-fluid" src="/project0.ddc7d0f0.png">
                   </div>
                 </a>
               </div>
             </div>
           </div>
-          
+          <!-- /END Project -->
 
-          
-          <div class=row>
+          <!-- Notice: each .row is a project -->
+          <div class="row">
             <div class="col-lg-4 col-sm-12">
-              <div class="load-hidden project-wrapper__text">
-                <h3 class=project-wrapper__text-title>Disaster Preparation Generator</h3>
+              <div class="project-wrapper__text load-hidden">
+                <h3 class="project-wrapper__text-title">Disaster Preparation Generator</h3>
                 <div>
-                  <p class=mb-4>
+                  <p class="mb-4">
                     Built a web-based emergency checklist app that personalizes disaster supply recommendations based on user location and risk type. Leveraged the MERN stack (MongoDB, Express.js, React.js, Node.js) to implement full-stack functionality. Integrated JWT authentication and bcrypt.js for secure login. Designed a responsive UI with React and built custom RESTful APIs to generate supply plans for events like hurricanes, earthquakes, or floods. This project deepened my skills in user-centered design, secure backend development, and scalable data handling.
 
 
                   </p>
                 </div>
-                <a rel=noreferrer target=_blank class="cta-btn cta-btn--hero" href=https://youtu.be/oVyvLIVdMgc>
+                <a rel="noreferrer" target="_blank" class="cta-btn cta-btn--hero" href="https://youtu.be/oVyvLIVdMgc">
                   See Live
                 </a>
-                <a rel=noreferrer target=_blank class="cta-btn text-color-main" href=https://github.com/michaelbennieUFL/2025hackabull>
+                <a rel="noreferrer" target="_blank" class="cta-btn text-color-main" href="https://github.com/michaelbennieUFL/2025hackabull">
                   Source Code
                 </a>
               </div>
             </div>
             <div class="col-lg-8 col-sm-12">
-              <div class="load-hidden project-wrapper__image">
-                <a rel=noreferrer href=https://youtu.be/oVyvLIVdMgc target=_blank>
-                  <div data-tilt data-tilt-max=4 data-tilt-glare=true data-tilt-max-glare=0.5 class="js-tilt rounded thumbnail">
-                    <img alt="Project Image" class=img-fluid src=/project2.caed7a2f.png style=object-fit:cover;border-radius:10px;width:100%;height:500px>
+              <div class="project-wrapper__image load-hidden">
+                <a rel="noreferrer" href="https://youtu.be/oVyvLIVdMgc" target="_blank">
+                  <div data-tilt="" data-tilt-max="4" data-tilt-glare="true" data-tilt-max-glare="0.5" class="thumbnail rounded js-tilt">
+                    <img alt="Project Image" class="img-fluid" src="/project2.d47934b7.png" style="object-fit: cover; border-radius: 10px; width: 100%; height: 500px">
                   </div>
                 </a>
               </div>
             </div>
           </div>
-          
+          <!-- /END Project -->
 
-          
-          <div class=row>
+          <!-- Notice: each .row is a project -->
+          <div class="row">
             <div class="col-lg-4 col-sm-12">
-              <div class="load-hidden project-wrapper__text">
-                <h3 class=project-wrapper__text-title>Skin Scan</h3>
+              <div class="project-wrapper__text load-hidden">
+                <h3 class="project-wrapper__text-title">Skin Scan</h3>
                 <div>
-                  <p class=mb-4>
+                  <p class="mb-4">
                     Built an AI-powered web platform for early skin cancer detection. Designed to support doctors with real-time lesion analysis and provide patients with educational resources. The app uses Flask, SQLite, and XGBoost to classify images and securely track diagnostic data.
                   </p>
                 </div>
-                <a rel=noreferrer target=_blank class="cta-btn cta-btn--hero" href="https://www.youtube.com/watch?v=W0u0Yc5Qy-g&amp;t=2s&amp;ab_channel=MichaelBennie">
+                <a rel="noreferrer" target="_blank" class="cta-btn cta-btn--hero" href="https://www.youtube.com/watch?v=W0u0Yc5Qy-g&amp;t=2s&amp;ab_channel=MichaelBennie">
                   See Live
                 </a>
-                <a rel=noreferrer target=_blank class="cta-btn text-color-main" href=https://github.com/jeIIycodes/HackUSF-2025>
+                <a rel="noreferrer" target="_blank" class="cta-btn text-color-main" href="https://github.com/jeIIycodes/HackUSF-2025">
                   Source Code
                 </a>
               </div>
             </div>
             <div class="col-lg-8 col-sm-12">
-              <div class="load-hidden project-wrapper__image">
-                <a rel=noreferrer href="https://www.youtube.com/watch?v=W0u0Yc5Qy-g&amp;t=2s&amp;ab_channel=MichaelBennie" target=_blank>
-                  <div data-tilt data-tilt-max=4 data-tilt-glare=true data-tilt-max-glare=0.5 class="js-tilt rounded thumbnail">
-                    <img alt="Project Image" class=img-fluid src=/project3.9f84295b.png>
+              <div class="project-wrapper__image load-hidden">
+                <a rel="noreferrer" href="https://www.youtube.com/watch?v=W0u0Yc5Qy-g&amp;t=2s&amp;ab_channel=MichaelBennie" target="_blank">
+                  <div data-tilt="" data-tilt-max="4" data-tilt-glare="true" data-tilt-max-glare="0.5" class="thumbnail rounded js-tilt">
+                    <img alt="Project Image" class="img-fluid" src="/project3.104d946c.png">
                   </div>
                 </a>
               </div>
             </div>
           </div>
-          
+          <!-- /END Project -->
         </div>
       </div>
     </section>
-    
+    <!-- /END Projects Section -->
 
-    
-    <section id=contact>
-      <div class=container>
-        <h2 class=section-title>Contact</h2>
+    <!-- **** Contact Section **** -->
+    <section id="contact">
+      <div class="container">
+        <h2 class="section-title">Contact</h2>
         <div class="contact-wrapper load-hidden">
-          <p class=contact-wrapper__text>cfengsu2002@gmail.com</p>
+          <p class="contact-wrapper__text">cfengsu2002@gmail.com</p>
         </div>
       </div>
     </section>
-    
+    <!-- /END Contact Section -->
 
-    
+    <!-- **** Footer Section **** -->
     <footer class="footer navbar-static-bottom">
-      <div class=container>
-        <a rel=noreferrer href=#top class=back-to-top>
-          <i class="fa fa-2x fa-angle-up" aria-hidden=true></i>
+      <div class="container">
+        <a rel="noreferrer" href="#top" class="back-to-top">
+          <i class="fa fa-angle-up fa-2x" aria-hidden="true"></i>
         </a>
-        <div class=social-links>
-          <a rel=noreferrer href=https://www.linkedin.com/in/chenfengsu target=_blank>
-            <i class="fa fa-inverse fa-linkedin"></i>
+        <div class="social-links">
+          <a rel="noreferrer" href="https://www.linkedin.com/in/chenfengsu" target="_blank">
+            <i class="fa fa-linkedin fa-inverse"></i>
           </a>
-          <a rel=noreferrer href=https://github.com/Cfengsu2002 target=_blank>
+          <a rel="noreferrer" href="https://github.com/Cfengsu2002" target="_blank">
             <i class="fa fa-github fa-inverse"></i>
           </a>
         </div>
 
         <hr>
 
-        
-        <p class=footer__text>
+        <!-- Notice: if you want to give me some credit, it will be huge for me! if not, put your data on it -->
+        <p class="footer__text">
           ©
-          <a rel=noreferrer href=https://github.com/Cfengsu2002 target=_blank>Chenfeng Su</a>
+          <a rel="noreferrer" href="https://github.com/Cfengsu2002" target="_blank">Chenfeng Su</a>
         </p>
 
-    <script defer type=module src=/simplefolio.31a797cf.js></script>
+    <script defer="" type="module" src="/simplefolio.31b563d9.js"></script>
   
 
-</div></footer>
+</div></footer></body></html>
